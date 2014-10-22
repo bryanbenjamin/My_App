@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  get 'My_App/home'
+  get 'pages/home'
 
-  get 'My_App/contact'
+  get 'pages/contact'
 
 
   # The priority is based upon order of creation: first created -> highest priority.

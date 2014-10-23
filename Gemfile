@@ -53,6 +53,7 @@ group :test do
   gem 'guard-minitest', '~> 2.3.2'
   gem 'minitest-reporters', '~> 1.0.6'
   gem 'autotest', '~> 4.4.6'
+  gem 'win32console', '~> 1.3.2'
 end
 
 group :production do

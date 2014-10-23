@@ -47,12 +47,12 @@ group :development do
 end
 
 group :test do
-  gem 'rspec-autotest', '~> 1.0.0'
-  gem 'spork-rails', '~> 4.0.0'
+  gem 'rspec-rails', '~> 3.1.0'
   gem 'minitest', '~> 5.4.2'
   gem 'mini_backtrace', '~> 0.1.3'
   gem 'guard-minitest', '~> 2.3.2'
   gem 'minitest-reporters', '~> 1.0.6'
+  gem 'autotest', '~> 4.4.6'
 end
 
 group :production do

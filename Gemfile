@@ -47,9 +47,8 @@ group :development do
 end
 
 group :test do
-  gem 'rspec-autotest'
+  gem 'rspec-autotest', '~> 1.0.0'
   gem 'rspec-rails', '~> 3.1.0'
-  gem 'autotest', '~> 4.4.6'
   gem 'spork-rails', '~> 4.0.0'
   gem 'ZenTest', '~> 4.11.0'
   gem 'minitest', '~> 5.4.2'

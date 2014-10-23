@@ -30,8 +30,6 @@ GEM
       tzinfo (~> 1.1)
     ansi (1.4.3)
     arel (5.0.1.20140414130214)
-    autotest (4.4.6)
-      ZenTest (>= 4.4.1)
     binding_of_caller (0.7.3.pre1)
       debug_inspector (>= 0.0.1)
     builder (3.2.2)
@@ -205,7 +203,6 @@ PLATFORMS
 
 DEPENDENCIES
   ZenTest (~> 4.11.0)
-  autotest (~> 4.4.6)
   byebug (~> 3.5.1)
   coffee-rails (~> 4.0.0)
   guard-minitest (~> 2.3.2)
@@ -217,7 +214,7 @@ DEPENDENCIES
   pg
   rails (= 4.1.6)
   rails_12factor (~> 0.0.3)
-  rspec-autotest
+  rspec-autotest (~> 1.0.0)
   rspec-rails (~> 3.1.0)
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)

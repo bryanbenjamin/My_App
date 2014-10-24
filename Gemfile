@@ -38,7 +38,8 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
-
+gem 'bootstrap-sass'
+gem 'autoprefixer-rails'
 
 group :development do
    gem 'sqlite3',   '1.3.9'
@@ -53,8 +54,6 @@ group :test do
   gem 'mini_backtrace', '~> 0.1.3'
   gem 'guard-minitest', '~> 2.3.2'
   gem 'minitest-reporters', '~> 1.0.6'
-  gem 'nokogiri', '~> 1.6.3.1'
-  gem 'capybara-rails-2-2', '~> 0.4.1.1'
 end
 
 group :production do

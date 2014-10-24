@@ -44,7 +44,6 @@ group :development do
    gem 'sqlite3',   '1.3.9'
    gem 'byebug', '~> 3.5.1'
    gem 'spring', '~> 1.1.3'
-   gem 'bootstrap-sass', '~> 3.2.0.2'
    gem 'web-console', '~> 2.0.0.beta4'
  end
 

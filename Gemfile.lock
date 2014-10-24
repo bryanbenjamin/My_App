@@ -29,8 +29,6 @@ GEM
       tzinfo (~> 1.1)
     ansi (1.4.3)
     arel (5.0.1.20140414130214)
-    autoprefixer-rails (3.1.2.20141016)
-      execjs
     binding_of_caller (0.7.3.pre1)
       debug_inspector (>= 0.0.1)
     bootstrap-sass (3.2.0.2)
@@ -219,7 +217,6 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
-  autoprefixer-rails
   bootstrap-sass (~> 3.2.0.2)
   byebug (~> 3.5.1)
   capybara-rails-2-2 (~> 0.4.1.1)

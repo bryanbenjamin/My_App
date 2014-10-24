@@ -47,8 +47,7 @@ group :development do
    gem 'spring', '~> 1.1.3'
    gem 'bootstrap-sass', '~> 3.2.0.2'
    gem 'web-console', '~> 2.0.0.beta4'
-   gem 'autoprefixer-rails'
-end
+ end
 
 group :test do
   gem 'rspec-rails', '~> 3.1.0'

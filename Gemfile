@@ -6,7 +6,8 @@ gem 'rails', '4.1.6'
 # Use postgresql as the database for Active Record
 gem 'pg'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.3'
+#gem 'sass-rails', '~> 4.0.3'
+gem 'bootstrap-sass', '~> 3.2.0.2'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
@@ -39,10 +40,11 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 
+
 group :development do
    gem 'sqlite3',     '1.3.9'
    gem 'byebug', '~> 3.5.1'
-   gem 'web-console', '~> 2.0.0.beta4'
+   gem 'web-console', '~> 1.0.4'
    gem 'spring', '~> 1.1.3'
 end
 

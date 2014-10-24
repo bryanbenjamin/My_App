@@ -29,6 +29,10 @@ GEM
       tzinfo (~> 1.1)
     ansi (1.4.3)
     arel (5.0.1.20140414130214)
+    autoprefixer-rails (3.1.2.20141016)
+      execjs
+    binding_of_caller (0.7.3.pre1)
+      debug_inspector (>= 0.0.1)
     bootstrap-sass (3.2.0.2)
       sass (~> 3.2)
     builder (3.2.2)
@@ -60,6 +64,7 @@ GEM
     coffee-script-source (1.8.0)
     columnize (0.8.9)
     culerity (0.2.15)
+    debug_inspector (0.0.2)
     debugger-linecache (1.2.0)
     diff-lcs (1.2.5)
     erubis (2.7.0)
@@ -200,10 +205,11 @@ GEM
     uglifier (2.5.3)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
-    web-console (1.0.4)
+    web-console (2.0.0.beta4)
       activemodel (~> 4.0)
+      binding_of_caller (= 0.7.3.pre1)
       railties (~> 4.0)
-      sprockets-rails (~> 2.0)
+      sprockets-rails (>= 2.0, < 4.0)
     websocket (1.2.1)
     win32console (1.3.2-x86-mingw32)
     xpath (0.1.4)
@@ -213,6 +219,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  autoprefixer-rails
   bootstrap-sass (~> 3.2.0.2)
   byebug (~> 3.5.1)
   capybara-rails-2-2 (~> 0.4.1.1)
@@ -235,4 +242,4 @@ DEPENDENCIES
   turbolinks
   tzinfo-data
   uglifier (>= 1.3.0)
-  web-console (~> 1.0.4)
+  web-console (~> 2.0.0.beta4)

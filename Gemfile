@@ -52,8 +52,8 @@ group :test do
   gem 'mini_backtrace', '~> 0.1.3'
   gem 'guard-minitest', '~> 2.3.2'
   gem 'minitest-reporters', '~> 1.0.6'
-  gem 'autotest', '~> 4.4.6'
-  gem 'ZenTest', '~> 4.11.0'
+  gem 'nokogiri', '~> 1.6.3.1'
+  gem 'capybara-rails-2-2', '~> 0.4.1.1'
 end
 
 group :production do
